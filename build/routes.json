@@ -35897,6 +35897,56 @@
     "name": "LINE",
     "url": "today.line.me"
   },
+  "linews": {
+    "routes": {
+      "/d1ev": {
+        "path": "/d1ev",
+        "categories": [
+          "new-media"
+        ],
+        "example": "/linews/d1ev",
+        "name": "第一电动网",
+        "url": "www.d1ev.com/news",
+        "description": "资讯栏目每天对新能源电动汽车行业的新闻资讯第一时间报道,并且有专业的产业报道小组为您分析解读。",
+        "maintainers": [
+          "kyleliu"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "location": "d1ev.ts"
+      },
+      "/gasgoo": {
+        "path": "/gasgoo",
+        "categories": [
+          "new-media"
+        ],
+        "example": "/linews/gasgoo",
+        "name": "盖世汽车资讯",
+        "url": "auto.gasgoo.com/auto-news/C-103-106-107-108-109-110-303-409-501-601",
+        "description": "盖世汽车新闻资讯-我们实时提供:最新汽车销量数据、最新汽车新闻、汽车行业新闻以及汽车新闻头条等.是您了解汽车的第一渠道.",
+        "maintainers": [
+          "kyleliu"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "location": "gasgoo.ts"
+      }
+    },
+    "name": "Linews",
+    "url": "rss.niubox.com"
+  },
   "linkedin": {
     "routes": {
       "/jobs/:job_types/:exp_levels/:keywords?/:routeParams?": {
